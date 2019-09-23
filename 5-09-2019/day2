@@ -1,0 +1,862 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 05-09-2019"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# this is first program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## addition of two numbers"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "30\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "b=20\n",
+    "c=a+b\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## this is second program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### sum of two numbers from user"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "20\n",
+      "30\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input())\n",
+    "b=int(input())\n",
+    "c=a+b\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# this is third program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## product of two numbers"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "200\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "b=20\n",
+    "c=a*b\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# this is fourth program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# product of two numbers from user"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20\n",
+      "30\n",
+      "600\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input())\n",
+    "b=int(input())\n",
+    "c=a*b\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# this is fifth program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## concatenation of strings"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter a nameramya\n",
+      "('hi', 'ramya')\n"
+     ]
+    }
+   ],
+   "source": [
+    "n=input(\"enter a name\")\n",
+    "c=(\"hi\",n)\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# this is sixth program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## conditional statement"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter a value15\n",
+      "enter a value52\n",
+      "b is greater\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter a value\"))\n",
+    "b=int(input(\"enter a value\"))\n",
+    "if a==b:\n",
+    "    print(\"a and b are equal\")\n",
+    "elif a>b:\n",
+    "    print(\"a is greater\")\n",
+    "else:\n",
+    "    print(\"b is greater\")\n",
+    "    \n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# this is seventh program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## comparision of three numbers"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter a value30\n",
+      "enter a value45\n",
+      "enter a value73\n",
+      "c is gretaer\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"enter a value\"))\n",
+    "b=int(input(\"enter a value\"))\n",
+    "c=int(input(\"enter a value\"))\n",
+    "if a==b==c:\n",
+    "    print(\"three are equal\")\n",
+    "elif a>b>c:\n",
+    "    print(\"a is greater\")\n",
+    "elif b>c>a:\n",
+    "    print(\"b is greater\")\n",
+    "else:\n",
+    "    print(\"c is gretaer\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# this is 8th program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## to print calender"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "     April 1999\n",
+      "Mo Tu We Th Fr Sa Su\n",
+      "          1  2  3  4\n",
+      " 5  6  7  8  9 10 11\n",
+      "12 13 14 15 16 17 18\n",
+      "19 20 21 22 23 24 25\n",
+      "26 27 28 29 30\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "import calendar\n",
+    "year=1999\n",
+    "month=4\n",
+    "c=calendar.month(year,month)\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# this is 9th program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## to print calender input from user"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter a year2020\n",
+      "enter month1\n",
+      "    January 2020\n",
+      "Mo Tu We Th Fr Sa Su\n",
+      "       1  2  3  4  5\n",
+      " 6  7  8  9 10 11 12\n",
+      "13 14 15 16 17 18 19\n",
+      "20 21 22 23 24 25 26\n",
+      "27 28 29 30 31\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "import calendar\n",
+    "year=int(input(\"enter a year\"))\n",
+    "month=int(input(\"enter month\"))\n",
+    "c=calendar.month(year,month)\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 10th program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## type of a variable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a=\"name\"\n",
+    "type(a)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 11th program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## loops concept"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n",
+      "10\n",
+      "11\n",
+      "12\n",
+      "13\n",
+      "14\n",
+      "15\n",
+      "16\n",
+      "17\n",
+      "18\n",
+      "19\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(20):\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## to print strings in array"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "kranthi\n",
+      "ramya\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=[\"kranthi\",\"ramya\"]\n",
+    "for i in(x):\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## second model"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['maggie', 'ramya'] ['kranthi', 'prasad', 'naveen']\n",
+      "['maggie', 'ramya'] ['kranthi', 'prasad', 'naveen']\n",
+      "['maggie', 'ramya'] ['kranthi', 'prasad', 'naveen']\n",
+      "['maggie', 'ramya'] ['kranthi', 'prasad', 'naveen']\n",
+      "['maggie', 'ramya'] ['kranthi', 'prasad', 'naveen']\n",
+      "['maggie', 'ramya'] ['kranthi', 'prasad', 'naveen']\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=[\"maggie\",\"ramya\"]\n",
+    "y=[\"kranthi\",\"prasad\",\"naveen\"]\n",
+    "for i in(x):\n",
+    "    for j in(y):\n",
+    "        print(x,y)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 12th program"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## functions concept"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### addition"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "30"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def add(x,y):\n",
+    "    c=x+y\n",
+    "    return c\n",
+    "a=10\n",
+    "b=20\n",
+    "add(a,b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### inputs from user"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25\n",
+      "35\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "60"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def add(x,y):\n",
+    "    c=x+y\n",
+    "    return c\n",
+    "a=int(input())\n",
+    "b=int(input())\n",
+    "add(a,b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## subtraction"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "30"
+      ]
+     },
+     "execution_count": 46,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def sub(x,y):\n",
+    "    c=x-y\n",
+    "    return c\n",
+    "a=50\n",
+    "b=20\n",
+    "sub(a,b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## multiplication"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "200"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def mul(x,y):\n",
+    "    c=x*y\n",
+    "    return c\n",
+    "a=10\n",
+    "b=20\n",
+    "mul(a,b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## division"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5.0"
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def div(x,y):\n",
+    "    c=x/y\n",
+    "    return c\n",
+    "a=100\n",
+    "b=20\n",
+    "div(a,b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## modulus"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 50,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def mod(x,y):\n",
+    "    c=x%y\n",
+    "    return c\n",
+    "a=60\n",
+    "b=50\n",
+    "mod(a,b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## arithmatic operations"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n",
+      "10\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "(25, 5, 150, 1.5, 5)"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def arith(x,y):\n",
+    "    c=x+y\n",
+    "    d=x-y\n",
+    "    e=x*y\n",
+    "    f=x/y\n",
+    "    g=x%y\n",
+    "    return c,d,e,f,g\n",
+    "a=int(input())\n",
+    "b=int(input())\n",
+    "arith(a,b)\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## to print the given table"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter the table5\n",
+      "the multiplication of given table is 5\n",
+      "5 x 1 = 5\n",
+      "5 x 2 = 10\n",
+      "5 x 3 = 15\n",
+      "5 x 4 = 20\n",
+      "5 x 5 = 25\n",
+      "5 x 6 = 30\n",
+      "5 x 7 = 35\n",
+      "5 x 8 = 40\n",
+      "5 x 9 = 45\n",
+      "5 x 10 = 50\n"
+     ]
+    }
+   ],
+   "source": [
+    "num=int(input(\"enter the table\"))\n",
+    "print(\"the multiplication of given table is\",num)\n",
+    "for i in range(1,11):\n",
+    "    print(num,\"x\",i,\"=\",num*i)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## to check even or odd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "odd\n",
+      "odd\n"
+     ]
+    }
+   ],
+   "source": [
+    "def evenodd(a):\n",
+    "    if(a%2==0):\n",
+    "        print(\"even\")\n",
+    "    else:\n",
+    "        print(\"odd\")\n",
+    "evenodd(7)\n",
+    "evenodd(5)\n",
+    "        \n",
+    "        \n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
